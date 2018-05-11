@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0e9a7abf-4861-414d-8b85-691a08d43a96" ChangeDateTime="05/10/2018 22:18:41">
+    <Property Name="ElementName" Value="[dbo].[FavouriteColours].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FavouriteColours]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PersonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="77c698af-b8a5-404c-891f-368c213b0e93" ChangeDateTime="05/10/2018 22:31:18">
+    <Property Name="ElementName" Value="[dbo].[People].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[People]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PersonId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="48d9ffe0-f6c9-4216-a1a0-84575c1aa3be" ChangeDateTime="05/10/2018 23:23:18">
+    <Property Name="ElementName" Value="[dbo].[Colours].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Colours]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="77f74cb6-48f3-4040-bc26-acf3b9cd5378" ChangeDateTime="05/10/2018 23:32:17">
+    <Property Name="ElementName" Value="[dbo].[TechTest].[ColoursId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TechTest]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ColourId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="783b4dbb-c37e-4630-9222-9c07acb77e93" ChangeDateTime="05/11/2018 01:07:02">
+    <Property Name="ElementName" Value="[dbo].[Colours].[LastName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Colours]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastName1" />
+  </Operation>
+</Operations>
